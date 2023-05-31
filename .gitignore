@@ -82,11 +82,11 @@ typings/
 oldcode.js
 
 # generator files
-main.js
-render.js
-yarn.lock
-index.html
-statstyle.css
-package.json
-vars.json
-emf.js
+# main.js
+# render.js
+# yarn.lock
+# index.html
+# statstyle.css
+# package.json
+# vars.json
+# emf.js
