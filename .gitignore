@@ -80,6 +80,7 @@ typings/
 *.rar
 *.zip
 oldcode.js
+htmlnew.html
 
 # generator files
 # main.js

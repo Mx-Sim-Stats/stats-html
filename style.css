@@ -3,6 +3,7 @@
     src: url(fonts/eurostile.woff);
 }
 
+
 body{
     background-image: url('images/backgrounds/bg.jpg');
     background-repeat: no-repeat;
@@ -27,6 +28,23 @@ div{
     width: 10vw;
 }
 
+.navclass{
+    display: flex;
+    justify-content: center;
+}
+
+.navbuttons{
+    font-family: Eurostile;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    margin: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 h1{
     font-family: Eurostile;
     width: 100%;
@@ -40,6 +58,15 @@ h1{
 }
 
 h2{
+    font-family: Eurostile;
+    font-size: 2vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
     margin-left: auto;
     margin-right: auto;
     text-align: center;

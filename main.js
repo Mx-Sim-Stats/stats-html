@@ -628,7 +628,23 @@ ipcMain.on("generateProMxStats", async (event, data) => {
     try{
         await win.webContents.send("statsUpdates", 'Starting')
         await win.webContents.send("sendError", "")
+        fs.writeFileSync(`${path.join(__dirname, "htmlnew.html")}`, `
+        <h2>Top 10 Qualifiers</h2>\n
+        <h3>250 Motocross</h3>\n
+        <table>\n
+        <thead>\n
+        <tr>\n
+        <th>Position</th>\n
+        <th>Number</th>\n
+        <th>Name</th>\n
+        <th>Team</th>\n
+        <th>Brand</th>\n
+        <th>Time</th>\n
+        </tr>\n
+        </thead>\n
+        <tbody>`)
         if(data.proMxQualifying !== ""){
+            
             fs.writeFileSync(`${path.join(__dirname, "stats.txt")}`, `[url=${data.proMxQualifying}][color=#0080BF][b]Top 10 Qualifiers[/b][/color][/url]\n\n`)
             fs.appendFileSync(`${path.join(__dirname, "stats.txt")}`, `[b][u]${class250}[/b][/u]\n`)
             await rfQualifyingFunction(data.proMxQualifying, nation, series, "Pro", "250", "MX")
