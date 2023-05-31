@@ -33,6 +33,23 @@ div{
     justify-content: center;
 }
 
+.racenav{
+    display: flex;
+    justify-content: center;
+}
+
+.racebuttons{
+    font-family: Eurostile;
+    color: white;
+    background-color: black;
+    font-size: .75vw;
+    margin: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 .navbuttons{
     font-family: Eurostile;
     color: white;
@@ -43,6 +60,7 @@ div{
     border: none;
     border-radius: 8px;
     cursor: pointer;
+    margin: auto;
 }
 
 h1{
@@ -55,6 +73,7 @@ h1{
     grid-template-columns: auto auto auto;
     align-items: center;
     justify-items: center;
+    margin: auto;
 }
 
 h2{
@@ -64,6 +83,7 @@ h2{
     margin-right: auto;
     text-align: center;
     text-decoration: underline;
+    margin: 25px;
 }
 
 h3{
