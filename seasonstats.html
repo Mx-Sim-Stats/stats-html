@@ -1,121 +1,622 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>MX Simulator Statistics</title>
-      <link rel="stylesheet" href="style.css">
-   </head>
-   <body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MX Simulator Statistics</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div>
-        <nav class="navclass">
-            <a rel="noopener" href="#2012"><button class="navbuttons">2012</button></a>
-            <a rel="noopener" href="#2013"><button class="navbuttons">2013</button></a>
-            <a rel="noopener" href="#2014"><button class="navbuttons">2014</button></a>
-            <a rel="noopener" href="#2015"><button class="navbuttons">2015</button></a>
-            <a rel="noopener" href="#2016"><button class="navbuttons">2016</button></a>
-            <a rel="noopener" href="#2017"><button class="navbuttons">2017</button></a>
-            <a rel="noopener" href="#2018"><button class="navbuttons">2018</button></a>
-            <a rel="noopener" href="#2019"><button class="navbuttons">2019</button></a>
-            <a rel="noopener" href="#2020"><button class="navbuttons">2020</button></a>
-            <a rel="noopener" href="#2021"><button class="navbuttons">2021</button></a>
-            <a rel="noopener" href="#2022"><button class="navbuttons">2022</button></a>
-        </nav>
-        <div>
-            <h1 id="2023mx" style="grid-template-columns: auto;">2023 Motocross</h1>
-            <h1 id="2023" style="grid-template-columns: auto;">2023 Supercross</h1>
-            <h2>
-                250 West Stats
-            </h2>
-            <h3>
-                250 West Quick Qualifiers
-            </h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Round</th>
-                        <th>Number</th>
-                        <th>Name</th>
-                        <th>Team</th>
-                        <th>Bike</th>
-                        <th>Time</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class ="odd">
-                        <td>Anaheim 1</td>
-                        <td>44</td>
-                        <td>Seth Shirley</td>
-                        <td>JIBR.CO</td>
-                        <td><img class="bikebrand" src="images/brands/ktm.png" width="32"></td>
-                        <td>1:04.289</td>
-                    </tr>
-                    <tr class ="even">
-                        <td>Oakland</td>
-                        <td>44</td>
-                        <td>Seth Shirley</td>
-                        <td>JIBR.CO</td>
-                        <td><img class="bikebrand" src="images/brands/ktm.png" width="32"></td>
-                        <td>1:05.781</td>
-                    </tr>
-                </tbody>
-            </table>
-            <h3>
-                250 West Heat Race Winners
-            </h3>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Total</th>
-                        <th>Number</th>
-                        <th>Name</th>
-                        <th>Team</th>
-                        <th>Bike</th>
-                        <th>Locations</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class ="odd">
-                        <td>3</td>
-                        <td>44</td>
-                        <td>Seth Shirley</td>
-                        <td>JIBR.CO</td>
-                        <td><img class="bikebrand" src="images/brands/ktm.png" width="32"></td>
-                        <td>Arlington, Daytona, Detroit, Atlanta, East Rutherford, Nashville, Salt Lake City</td>
-                    </tr>
-                    <tr class ="even">
-                        <td>1</td>
-                        <td>68</td>
-                        <td>Ryan Pinkerton</td>
-                        <td>Yogi</td>
-                        <td><img class="bikebrand" src="images/brands/ktm.png" width="32"></td>
-                        <td>Anaheim 1</td>
-                    </tr>
-                </tbody>
-            </table>
-            <h1 id="2022mx" style="grid-template-columns: auto;">2022 Motocross</h1>
-            <h1 id="2022" style="grid-template-columns: auto;">2022 Supercross</h1>
-            <h1 id="2021mx" style="grid-template-columns: auto;">2021 Motocross</h1>
-            <h1 id="2021" style="grid-template-columns: auto;">2021 Supercross</h1>
-            <h1 id="2020mx" style="grid-template-columns: auto;">2020 Motocross</h1>
-            <h1 id="2020" style="grid-template-columns: auto;">2020 Supercross</h1>
-            <h1 id="2019mx" style="grid-template-columns: auto;">2019 Motocross</h1>
-            <h1 id="2019" style="grid-template-columns: auto;">2019 Supercross</h1>
-            <h1 id="2018mx" style="grid-template-columns: auto;">2018 Motocross</h1>
-            <h1 id="2018" style="grid-template-columns: auto;">2018 Supercross</h1>
-            <h1 id="2017mx" style="grid-template-columns: auto;">2017 Motocross</h1>
-            <h1 id="2017" style="grid-template-columns: auto;">2017 Supercross</h1>
-            <h1 id="2016mx" style="grid-template-columns: auto;">2016 Motocross</h1>
-            <h1 id="2016" style="grid-template-columns: auto;">2016 Supercross</h1>
-            <h1 id="2015mx" style="grid-template-columns: auto;">2015 Motocross</h1>
-            <h1 id="2015" style="grid-template-columns: auto;">2015 Supercross</h1>
-            <h1 id="2014mx" style="grid-template-columns: auto;">2014 Motocross</h1>
-            <h1 id="2014" style="grid-template-columns: auto;">2014 Supercross</h1>
-            <h1 id="2013mx" style="grid-template-columns: auto;">2013 Motocross</h1>
-            <h1 id="2013" style="grid-template-columns: auto;">2013 Supercross</h1>
-            <h1 id="2012mx" style="grid-template-columns: auto;">2012 Motocross</h1>
-            <h1 id="2012" style="grid-template-columns: auto;">2012 Supercross</h1>
-        </div>
+      <nav class="navclass">
+        <a rel="noopener" href="#2012"
+          ><button class="navbuttons">2012</button></a
+        >
+        <a rel="noopener" href="#2013"
+          ><button class="navbuttons">2013</button></a
+        >
+        <a rel="noopener" href="#2014"
+          ><button class="navbuttons">2014</button></a
+        >
+        <a rel="noopener" href="#2015"
+          ><button class="navbuttons">2015</button></a
+        >
+        <a rel="noopener" href="#2016"
+          ><button class="navbuttons">2016</button></a
+        >
+        <a rel="noopener" href="#2017"
+          ><button class="navbuttons">2017</button></a
+        >
+        <a rel="noopener" href="#2018"
+          ><button class="navbuttons">2018</button></a
+        >
+        <a rel="noopener" href="#2019"
+          ><button class="navbuttons">2019</button></a
+        >
+        <a rel="noopener" href="#2020"
+          ><button class="navbuttons">2020</button></a
+        >
+        <a rel="noopener" href="#2021"
+          ><button class="navbuttons">2021</button></a
+        >
+        <a rel="noopener" href="#2022"
+          ><button class="navbuttons">2022</button></a
+        >
+      </nav>
+      <div>
+        <h1 id="2023mx" style="grid-template-columns: auto">2023 Motocross</h1>
+        <h1 id="2023" style="grid-template-columns: auto">2023 Supercross</h1>
+        <h2>250 West Stats</h2>
+        <h3>250 West Quick Qualifiers</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Round</th>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Bike</th>
+              <th>Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td>Anaheim 1</td>
+              <td>44</td>
+              <td>Seth Shirley</td>
+              <td>JIBR.CO</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>1:04.289</td>
+            </tr>
+            <tr class="even">
+              <td>Oakland</td>
+              <td>44</td>
+              <td>Seth Shirley</td>
+              <td>JIBR.CO</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>1:05.781</td>
+            </tr>
+            <tr class="odd">
+              <td>San Diego</td>
+              <td>50</td>
+              <td>Jett Holyhead</td>
+              <td>Covenant</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/honda.png"
+                  width="32"
+                />
+              </td>
+              <td>1:00.929</td>
+            </tr>
+            <tr class="even">
+              <td>Anaheim 2</td>
+              <td>50</td>
+              <td>Jett Holyhead</td>
+              <td>Covenant</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/honda.png"
+                  width="32"
+                />
+              </td>
+              <td>1:00.929</td>
+            </tr>
+            <tr class="odd">
+              <td>Seattle</td>
+              <td>20</td>
+              <td>Brayden Tharp</td>
+              <td>Tscz Productions</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/husqvarna.png"
+                  width="32"
+                />
+              </td>
+              <td>52.781</td>
+            </tr>
+            <tr class="even">
+              <td>Glendale</td>
+              <td>38</td>
+              <td>Max Chwalik</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>1:00.695</td>
+            </tr>
+            <tr class="odd">
+              <td>East Rutherford</td>
+              <td>349</td>
+              <td>Grant Harlan</td>
+              <td>Privateer</td>
+              <td></td>
+              <td>54.062</td>
+            </tr>
+            <tr class="even">
+              <td>Denver</td>
+              <td>50</td>
+              <td>Jett Holyhead</td>
+              <td>Covenant</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/honda.png"
+                  width="32"
+                />
+              </td>
+              <td>47.148</td>
+            </tr>
+            <tr class="odd">
+              <td>Salt Lake City</td>
+              <td>50</td>
+              <td>Jett Holyhead</td>
+              <td>Covenant</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/honda.png"
+                  width="32"
+                />
+              </td>
+              <td>51.054</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>250 West Heat Race Winners</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Bike</th>
+              <th>Locations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td>3</td>
+              <td>44</td>
+              <td>Seth Shirley</td>
+              <td>JIBR.CO</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Anaheim 1, Seattle, Denver</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>68</td>
+              <td>Ryan Pinkerton</td>
+              <td>Yogi</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Anaheim 1</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>82</td>
+              <td>Luke Fauser</td>
+              <td>Infiniti</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/suzuki.png"
+                  width="32"
+                />
+              </td>
+              <td>Oakland</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>77</td>
+              <td>Mille Soderblom</td>
+              <td>Eyespec</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/kawasaki.png"
+                  width="32"
+                />
+              </td>
+              <td>Oakland</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>67</td>
+              <td>Tyler Scheels</td>
+              <td>Dootcorp</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>San Diego</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>20</td>
+              <td>Brayden Tharp</td>
+              <td>Tscz Productions</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/husqvarna.png"
+                  width="32"
+                />
+              </td>
+              <td>San Diego</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>38</td>
+              <td>Max Chwalik</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>Seattle</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>28</td>
+              <td>Frank Jackson</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>East Rutherford</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>50</td>
+              <td>Jett Holyhead</td>
+              <td>Covenant</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/honda.png"
+                  width="32"
+                />
+              </td>
+              <td>Denver</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>25</td>
+              <td>Cade Matherly</td>
+              <td>Privateer</td>
+              <td></td>
+              <td>Salt Lake City</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>250 West LCQ Winners</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Bike</th>
+              <th>Locations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td>1</td>
+              <td>238</td>
+              <td>Kasey Oehlert</td>
+              <td>Privateer</td>
+              <td></td>
+              <td>Anaheim 1</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>25</td>
+              <td>Cade Matherly</td>
+              <td>Privateer</td>
+              <td></td>
+              <td>Oakland</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>70</td>
+              <td>Anthony Picchione</td>
+              <td>SPINC</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/kawasaki.png"
+                  width="32"
+                />
+              </td>
+              <td>San Diego</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>72</td>
+              <td>JR Reyes</td>
+              <td>Finca</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/gasgas.png"
+                  width="32"
+                />
+              </td>
+              <td>Anaheim 2</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>65</td>
+              <td>Daniel Irvine</td>
+              <td>Yogi</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Seattle</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>84</td>
+              <td>Hayden Stevenson</td>
+              <td>Yogi</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Glendale</td>
+            </tr>
+            <tr class="odd">
+              <td>1</td>
+              <td>44</td>
+              <td>Seth Shirley</td>
+              <td>JIBR.CO</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>East Rutherford</td>
+            </tr>
+            <tr class="even">
+              <td>1</td>
+              <td>40</td>
+              <td>Tanner Rogers</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>Denver</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>250 West Main Event Holeshot Awards</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Bike</th>
+              <th>Locations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+              <td>4</td>
+              <td>44</td>
+              <td>Seth Shirley</td>
+              <td>JIBR.CO</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Anaheim 1, Anaheim 2, Seattle, Salt Lake City</td>
+            </tr>
+            <tr class="even">
+              <td>3</td>
+              <td>28</td>
+              <td>Frank Jackson</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>Oakland, Glendale, East Rutherford</td>
+            </tr>
+            <tr class="odd">
+              <td>2</td>
+              <td>29</td>
+              <td>Maxime Vanderbeek</td>
+              <td>Impact</td>
+              <td>
+                <img class="bikebrand" src="images/brands/ktm.png" width="32" />
+              </td>
+              <td>Anaheim 2 x2</td>
+            </tr>
+            <tr class="even">
+              <td>2</td>
+              <td>20</td>
+              <td>Brayden Tharp</td>
+              <td>Tscz Productions</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/husqvarna.png"
+                  width="32"
+                />
+              </td>
+              <td>San Diego, Glendale</td>
+            </tr>
+            <tr class="odd">
+              <td>2</td>
+              <td>45</td>
+              <td>Rogan McIntosh</td>
+              <td>Phil's</td>
+              <td>
+                <img
+                  class="bikebrand"
+                  src="images/brands/yamaha.png"
+                  width="32"
+                />
+              </td>
+              <td>Glendale, Denver</td>
+            </tr>
+          </tbody>
+        </table>
+        <h3>250 West Main Event Consistency Awards</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Total</th>
+              <th>Number</th>
+              <th>Name</th>
+              <th>Team</th>
+              <th>Bike</th>
+              <th>Locations</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="odd">
+                <td>2</td>
+                <td>29</td>
+                <td>Maxime Vanderbeek</td>
+                <td>Impact</td>
+                <td><img class="bikebrand" src="images/brands/ktm.png" width="32" /></td>
+                <td>Anaheim 2, Glendale</td>
+              </tr>
+              <tr class="even">
+                <td>2</td>
+                <td>405</td>
+                <td>Lucas Bruhn</td>
+                <td>Devast Land</td>
+                <td></td>
+                <td>Denver, Salt Lake City</td>
+              </tr>
+              <tr class="odd">
+                <td>1</td>
+                <td>74</td>
+                <td>Nico Marchini</td>
+                <td>Impact</td>
+                <td><img class="bikebrand" src="images/brands/ktm.png" width="32" /></td>
+                <td>Anaheim 1</td>
+              </tr>
+              <tr class="even">
+                <td>1</td>
+                <td>1</td>
+                <td>Luke Magnetti</td>
+                <td>Phil's</td>
+                <td><img class="bikebrand" src="images/brands/yamaha.png" width="32" /></td>
+                <td>Oakland</td>
+              </tr>
+              <tr class="odd">
+                <td>1</td>
+                <td>44</td>
+                <td>Seth Shirley</td>
+                <td>JIBR.CO</td>
+                <td><img class="bikebrand" src="images/brands/ktm.png" width="32" /></td>
+                <td>San Diego</td>
+              </tr>
+              <tr class="even">
+                <td>1</td>
+                <td>427</td>
+                <td>Daniel Olsson</td>
+                <td>Tscz Productions</td>
+                <td><img class="bikebrand" src="images/brands/husqvarna.png" width="32" /></td>
+                <td>Anaheim 2</td>
+              </tr>
+              <tr class="odd">
+                <td>1</td>
+                <td>65</td>
+                <td>Daniel Irvine</td>
+                <td>Yogi</td>
+                <td><img class="bikebrand" src="images/brands/ktm.png" width="32" /></td>
+                <td>Anaheim 2</td>
+              </tr>
+              <tr class="even">
+                <td>1</td>
+                <td>45</td>
+                <td>Rogan McIntosh</td>
+                <td>Phil's</td>
+                <td><img class="bikebrand" src="images/brands/yamaha.png" width="32" /></td>
+                <td>Seattle</td>
+              </tr>
+              <tr class="odd">
+                <td>1</td>
+                <td>50</td>
+                <td>Jett Holyhead</td>
+                <td>Covenant</td>
+                <td><img class="bikebrand" src="images/brands/honda.png" width="32" /></td>
+                <td>Glendale</td>
+              </tr>
+              <tr class="even">
+                <td>1</td>
+                <td>246</td>
+                <td>Nathan McLaughlin</td>
+                <td>Neverland Motorsports</td>
+                <td><img class="bikebrand" src="images/brands/husqvarna.png" width="32" /></td>
+                <td>Glendale</td>
+              </tr>
+              <tr class="odd">
+                <td>1</td>
+                <td>84</td>
+                <td>Hayden Stevenson</td>
+                <td>Yogi</td>
+                <td><img class="bikebrand" src="images/brands/ktm.png" width="32" /></td>
+                <td>East Rutherford</td>
+              </tr>
+          </tbody>
+        </table>
+        <h1 id="2022mx" style="grid-template-columns: auto">2022 Motocross</h1>
+        <h1 id="2022" style="grid-template-columns: auto">2022 Supercross</h1>
+        <h1 id="2021mx" style="grid-template-columns: auto">2021 Motocross</h1>
+        <h1 id="2021" style="grid-template-columns: auto">2021 Supercross</h1>
+        <h1 id="2020mx" style="grid-template-columns: auto">2020 Motocross</h1>
+        <h1 id="2020" style="grid-template-columns: auto">2020 Supercross</h1>
+        <h1 id="2019mx" style="grid-template-columns: auto">2019 Motocross</h1>
+        <h1 id="2019" style="grid-template-columns: auto">2019 Supercross</h1>
+        <h1 id="2018mx" style="grid-template-columns: auto">2018 Motocross</h1>
+        <h1 id="2018" style="grid-template-columns: auto">2018 Supercross</h1>
+        <h1 id="2017mx" style="grid-template-columns: auto">2017 Motocross</h1>
+        <h1 id="2017" style="grid-template-columns: auto">2017 Supercross</h1>
+        <h1 id="2016mx" style="grid-template-columns: auto">2016 Motocross</h1>
+        <h1 id="2016" style="grid-template-columns: auto">2016 Supercross</h1>
+        <h1 id="2015mx" style="grid-template-columns: auto">2015 Motocross</h1>
+        <h1 id="2015" style="grid-template-columns: auto">2015 Supercross</h1>
+        <h1 id="2014mx" style="grid-template-columns: auto">2014 Motocross</h1>
+        <h1 id="2014" style="grid-template-columns: auto">2014 Supercross</h1>
+        <h1 id="2013mx" style="grid-template-columns: auto">2013 Motocross</h1>
+        <h1 id="2013" style="grid-template-columns: auto">2013 Supercross</h1>
+        <h1 id="2012mx" style="grid-template-columns: auto">2012 Motocross</h1>
+        <h1 id="2012" style="grid-template-columns: auto">2012 Supercross</h1>
+      </div>
     </div>
-   </body>
+  </body>
 </html>
